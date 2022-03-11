@@ -1,15 +1,14 @@
-# global-ray-intellij
+# A PhpStorm plugin providing autocompletion for Global Ray
 
 ![Build](https://github.com/olivernybroe/global-ray-intellij/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
 
-<!-- Plugin description -->
-Adds autocompletion for Spatie Ray when installed globally.
+[Ray](https://myray.app) is a beautiful desktop application that can help you debug faster.
 
-This plugin defines stubs for Ray, so autocompletion works in IntelliJ when Ray is installed globally.
+One of the ways to send debugging information to Ray is to install the [Global Ray](https://github.com/spatie/global-ray) tool, so you can use `ray()` in each PHP file on your system.
 
-<!-- Plugin description end -->
+This PhpStorm plugin provides autocompletion for all methods on `ray()`.
 
 ## Installation
 
